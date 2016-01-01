@@ -11,8 +11,7 @@ button{
   padding: 4px;
 }
 .row{
-  margin: 1px;
-  width: 100%;
+  width: 550px;
 }
 .box{
   display: inline-block;

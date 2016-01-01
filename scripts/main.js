@@ -2,7 +2,7 @@ $(document).ready(function(){
   var width = +$('#wrapper').width();
   var height = +$('#wrapper').height();
   for (var i = 0; i < 16; i++) {
-    $('#wrapper').append('<div class=\'row\'></div>');
+    $('#wrapper').append('<tr class=\'row\'></tr>');
   }
   $('.row').each(function(index){
     for (var i = 0; i < 16; i++) {
@@ -18,7 +18,7 @@ $(document).ready(function(){
     var num = prompt('What size?');
     $('.row').remove();
     for (var i = 0; i < num; i++) {
-      $('#wrapper').append('<div class=\'row\'></div>');
+      $('#wrapper').append('<tr class=\'row\'></tr>');
     }
     $('.row').each(function(index){
       for (var i = 0; i < num; i++) {
