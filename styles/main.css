@@ -1,0 +1,21 @@
+button{
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  padding: 3px;
+}
+#wrapper{
+  width: 550px;
+  height: 550px;
+  margin: 0px auto;
+  padding: 4px;
+}
+.row{
+  margin: 1px;
+  width: 100%;
+}
+.box{
+  display: inline-block;
+  margin: 1px;
+  background-color: black;
+}
